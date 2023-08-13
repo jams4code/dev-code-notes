@@ -39,6 +39,7 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 ```
 
 By following these guidelines, you can ensure that your MAUI app and .NET backend communicate correctly, making the development process smoother and more efficient.
+To avoid any other kind of error if you are running an identity server locally, I recommend setting your IP address instead of localhost, this will fix some potential issue on the token issuer side for authentication.
 
 ## Summary
 
